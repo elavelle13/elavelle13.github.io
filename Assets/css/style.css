@@ -26,7 +26,7 @@ h4 {
 
 
 header {
-    background-image: url(header.jpeg);
+    background-image: url(../Images/header.jpeg);
   	background-size: cover;
   	height: auto;
   	max-width: 100%;
@@ -104,6 +104,10 @@ footer h4 {
 
 .intro {
 	border-bottom: 1px solid #27303E;
+}
+
+.quote {
+	font-size: 14pt;
 }
 
 .education {

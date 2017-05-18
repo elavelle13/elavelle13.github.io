@@ -1,4 +1,4 @@
- /* Add a background color to the top navigation */
+ /* Add a black background color to the top navigation */
 .topnav {
     background-color: rgba(255,255,255,.9);
     overflow: hidden;
@@ -11,7 +11,7 @@
     float: left;
     display: block;
     color: #8EA50F;
-    text-align: left;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
@@ -25,9 +25,11 @@
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
-    position: relative;
+    position: absolute;
     right: 0;
     top: 0;
+    left: 108px;
+    margin-top: -2px;
   }
   .topnav.responsive a {
     float: none;
