@@ -224,15 +224,7 @@ footer h4 {
     }
 
     .projects {
-	display: inline-block;
-}
-
-	.left {
-		float:left;
-	}
-
-	.right {
-		float: right;
+	display: inline-flex;
 	}
 
 	.degree {
@@ -255,6 +247,7 @@ footer h4 {
 
 	.topnav {
 		background-color: transparent!important;
+		position: relative!important;
 	}
 
 	.topnav a {
@@ -327,6 +320,40 @@ footer h4 {
 
 	.feature-link:hover {
 		color: #8EA50F;
+	}
+
+	.col-t-6.right {
+		width: 62.5%!important;
+		margin: 1% 0% 1% 0%;
+	}
+
+	.col-t-4.left {
+		width: 41.33%!important;
+		margin: 1% .5% 1% 0%;
+	}
+
+	.footer-info {
+		border-bottom: 0px!important;
+	}
+
+	.footer-left {
+		text-align: left;
+		border-right: 1px solid #ffffff;
+		position: relative;
+		float: left;
+	}
+
+	.footer-right {
+		position: relative;
+		float: left;
+	}
+
+	.footer-social {
+		display: inline-flex;
+		position: relative;
+		left: 65px;
+		padding-top: 22%;
+
 	}
 
 }

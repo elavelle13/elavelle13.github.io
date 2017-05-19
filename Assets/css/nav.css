@@ -4,6 +4,10 @@
     overflow: hidden;
     width: 100%;
     margin: 0px auto;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    
 }
 
 /* Style the links inside the navigation bar */
@@ -23,7 +27,7 @@
 } 
 
 @media screen and (max-width: 599px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: fixed;}
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
