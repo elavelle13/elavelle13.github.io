@@ -30,13 +30,27 @@
   display: none!important;
 }
 
+i {
+  color: #8EA50F;
+  cursor: pointer;
+  padding: 14px 16px;
+}
+
+.nav-media {
+  width: 73%;
+  float: right;
+  margin: 0px auto;
+  position: relative;
+  text-align: right;
+}
+
 @media screen and (max-width: 599px) {
   .topnav.responsive {position: fixed;}
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
-    left: 108px;
+    left: 94px;
     margin-top: -2px;
   }
   .topnav.responsive a {
@@ -50,23 +64,22 @@
     font-size: 16px!important;
   }
 
-  .topnav a {display: none;}
+  .topnav a {
+    display: none;
+  }
+
   .topnav a.icon {
     float: left;
     display: block;
   }
+
+  .nav-media a {
+    float: right;
+    display: inline!important;
+    padding: 0;
+    font-size: 16px;
+  }
+
 }
 
-i {
-  color: #8EA50F;
-  cursor: pointer;
-  padding: 14px 16px;
-}
 
-.nav-media {
-  width: 57%;
-  float: right;
-  margin: 0px auto;
-  position: relative;
-  text-align: right;
-}

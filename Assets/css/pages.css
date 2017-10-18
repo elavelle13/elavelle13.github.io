@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,700|Merriweather:300');
+
+p {
+	font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+	font-size: 3em;
+	line-height: 50px;
+}
+
+h4 {
+	font-size: 1.3em;
+	color: #27303E;
+	margin: 0px auto;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+
+a {
+	color: #27303E;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #27303E;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+}
+
+ul {
+		list-style-type: none;
+		padding: 0px;
+	}
+
+footer h4 {
+	color: #8EA50F;
+}
+
+.site-padding {
+	padding: 3% 6%;
+	position: relative;
+	top: -35px;
+	p {
+	color: #27303E;
+	}
+}
+
+.bold-title {
+	font-weight: 700;
+	color: #27303E;
+}
+
+.light-title {
+	font-weight: 100;
+	color: #8EA50F;
+}
+
+.feature-project {
+	display: block;
+	padding-top: 83px;
+}
+
+.feature-text {
+	padding: 3% 5%;
+	padding-bottom: 8%;
+	line-height: 35px;
+}
+
+.project-btn {
+  border: 2px solid #27303E;
+  width: 100px;
+  padding: 12px 26px;
+  color: #27303E;
+}
+
+.project-btn:hover {
+	border: 1px solid #27303E;
+	background-color: #27303E;
+	color: #ffffff;
+}
+
+/* PROJECT PHOTOS */
+
+.feature-img {
+background-image: url(../../Assets/images/Project_shell.jpg);
+	background-size: contain;
+	height: auto;
+	width: 100%;
+	height: 275px;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	background-position: center;
+}
+
+.feature-img-dsa {
+	background-image: url(../../Assets/images/DSA_feature.jpg);
+	background-size: contain;
+	height: auto;
+	width: 100%;
+	height: 275px;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	background-position: center;
+}
+
+.feature-img-ksow {
+	background-image: url(../../Assets/images/KSoW_feature.jpg);
+	background-size: contain;
+	height: auto;
+	width: 100%;
+	height: 275px;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	background-position: center;
+}
+
+.feature-img-uncubed {
+	background-image: url(../../Assets/images/uncubed_feature.jpg);
+	background-size: contain;
+	height: auto;
+	width: 100%;
+	height: 275px;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	background-position: center;
+}
+
+.feature-img-layover {
+	background-image: url(../../Assets/images/layover_feature.jpg);
+	background-size: contain;
+	height: auto;
+	width: 100%;
+	height: 275px;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	background-position: center;
+}
+
+.feature-img-lunchMoney {
+	background-image: url(../../Assets/images/lunchMoney_feature.jpg);
+	background-size: contain;
+	height: auto;
+	width: 100%;
+	height: 275px;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	background-position: center;
+}
+
+/* END PROJECT PHOTOS */
+
+.feature-link {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	text-transform: lowercase;
+	font-size: 14pt;
+}
+
+.feature-link:hover {
+	color: #8EA50F;
+}
+
+
+.footer-text {
+	padding: 8% 14%;
+}
+
+.footer-info {
+	border-bottom: 1px solid #ffffff;
+	line-height: 22px;
+}
+
+.footer-info ul {
+	padding-bottom: 8%;
+}
+
+.footer-social {
+	padding-top: 11%;
+}
+
+.footer-social i {
+	color: #ffffff;
+	display: block;
+	font-size: 22px;
+}
+
+.footer-social i:hover {
+	color: #8EA50F;
+}
+
+.copyright p{
+	font-size: 11px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	padding: 45px 0px 10px 0px;
+}
+
+.footer-left {
+	padding-top: 45px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+
+.topnav a {
+	font-size: 20pt!important;
+}
+
+
+.nav-media {
+	display: none;
+}
+
+/*.row {
+	border-bottom: 3px solid #8EA50F;
+}*/
+
+.topnav {
+	background-color: #8EA50F;
+	position: relative!important;
+}
+
+.topnav a {
+	padding: 14px 0px!important;
+	width: 25%;
+	font-weight: 100;
+	color: #fff;
+}
+
+.topnav a:hover {
+	font-weight: 300;
+	color: #27303E;
+}
+
+.header-text {
+	top: 67%;
+	text-align: right;
+	left: -7%;
+}
+
+.feature-img-dsa, .feature-img-ksow, .feature-img-uncubed, .feature-img-layover, .feature-img-lunchMoney  {
+	height: 600px;
+}
+
+.feature-img-layover {
+	margin-bottom: 35px;
+}
+
+
+.feature-text {
+	background-color: #ededed;
+}
+
+.col-t-6.right {
+	width: 62.5%!important;
+	margin: 1% 0% 1% 0%;
+}
+
+.col-t-4.left {
+	width: 41.33%!important;
+	margin: 1% .5% 1% 0%;
+}
+
+.footer-info {
+	border-bottom: 0px!important;
+}
+
+.footer-left {
+	text-align: left;
+	border-right: 1px solid #ffffff;
+	position: relative;
+	float: left;
+	padding-top: 0px;
+}
+
+.footer-right {
+	position: relative;
+	float: left;
+}
+
+.footer-social {
+	display: inline-flex;
+	position: relative;
+	left: 65px;
+
+}
+
+.footer-info ul {
+	padding-bottom: 0px!important;
+}
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}

@@ -13,7 +13,7 @@ h2 {
 }
 
 h4 {
-	font-size: 1.15em;
+	font-size: 1.3em;
 	color: #27303E;
 	margin: 0px auto;
 }
@@ -29,7 +29,7 @@ body {
 
 
 header {
-    background-image: url(../Images/header.jpeg);
+    background-image: url(../../Assets/Images/header.jpeg);
   	background-size: cover;
   	height: auto;
   	max-width: 100%;
@@ -76,8 +76,9 @@ footer h4 {
 
 
 .site-padding {
-	padding: 3%;
-	margin: 3% 3%;
+	padding: 3% 6%;
+	position: relative;
+	top: -35px;
 	p {
 	color: #27303E;
 	}
@@ -114,16 +115,23 @@ footer h4 {
 }
 
 .intro p {
-	padding-bottom: 2%;
+	padding: 1% 6%;
 	line-height: 35px;
 }
 
 .intro {
-	border-bottom: 1px solid #27303E;
+	padding-bottom: 8%;
+}
+
+.mobile-hr {
+	border-bottom: 1px solid #000;
+	width: 85%;
+	margin: 0px auto;
 }
 
 .quote {
 	font-size: 14pt;
+	font-weight: 600;
 }
 
 .education {
@@ -137,7 +145,6 @@ footer h4 {
 .projects img {
 	background-size: contain;
 	max-width: 100%;
-	height: 100%;
 }
 
 /* relevant styles */
@@ -159,7 +166,7 @@ footer h4 {
   opacity: 0;
   margin: 0px auto;
   text-align: center;
-  padding-top: 35%;
+  padding-top: 30%;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   font-size: 1.15em;
@@ -179,12 +186,29 @@ footer h4 {
 	text-transform: lowercase;
 }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
 .footer-text {
-	padding: 14%;
+	padding: 8% 14%;
 }
 
 .footer-info {
 	border-bottom: 1px solid #ffffff;
+	line-height: 22px;
 }
 
 .footer-info ul {
@@ -209,7 +233,11 @@ footer h4 {
 	font-size: 11px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 100;
-	padding-bottom: 3%;
+	padding: 45px 0px 10px 0px;
+}
+
+.footer-left {
+	padding-top: 45px;
 }
 
 
@@ -227,6 +255,39 @@ footer h4 {
     .col-t-10 {width: 83.33%;}
     .col-t-11 {width: 91.66%;}
     .col-t-12 {width: 100%;}
+
+    .topnav a {
+    	font-size: 20pt!important;
+    }
+
+    .intro {
+    	padding-bottom: 0%;
+    	background-color: #27303E;
+    	color: #ffffff;
+    	position: relative;
+    	top: -19px;
+    }
+
+    .degree {
+    	padding-bottom: 0%;
+    }
+
+    .quote {
+    	padding-top: 85px!important;
+    }
+
+    .intro-bottom {
+    	padding-bottom: 85px!important;
+    }
+
+    .site-padding {
+
+		background-color: #ededed;
+	}
+
+	.mobile-hr {
+		display: none;
+	}
 
     .nav-media {
     	display: none;
@@ -274,7 +335,7 @@ footer h4 {
 		position: relative;
 		bottom: -70%;
 
-}
+	}
 
 	.topnav {
 		background-color: transparent!important;
@@ -289,7 +350,7 @@ footer h4 {
 	}
 
 	.topnav a:hover {
-		font-weight: 700;
+		font-weight: 300;
 		color: #8EA50F!important;
 	}
 
@@ -303,17 +364,21 @@ footer h4 {
 		display: inline-block;
 		background-color: #8EA50F;
 		margin: 0;
+		position: relative;
+		top: -35px;
 	}
 
 	.body-social i {
 		color: #ffffff;
 		font-size: 24pt;
 		text-align: center;
-		padding-left: 5%;
+		padding: 26px 0px;
+		float: left;
+
 	}
 
 	.education {
-		padding-bottom: 5%;
+		padding-bottom: 12%;
 	}
 
 	.feature-project {
@@ -324,14 +389,14 @@ footer h4 {
 	.feature-text {
 		padding: 3%;
 		margin: -1% 3%;
-		padding-bottom: 11%;
+		padding-bottom: 8%;
 		line-height: 35px;
 
 	}
 
 
 	.feature-img {
-    background-image: url(../Images/Project_shell.png);
+    background-image: url(../../Assets/images/Project_shell.jpg);
   	background-size: contain;
   	height: auto;
   	width: 100%;
@@ -371,6 +436,7 @@ footer h4 {
 		border-right: 1px solid #ffffff;
 		position: relative;
 		float: left;
+		padding-top: 0px;
 	}
 
 	.footer-right {

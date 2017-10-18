@@ -4,11 +4,13 @@
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Online Portfolio">
+<meta name="author" content="Emily Lavelle">
 
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<link rel="stylesheet" type="text/css" href="assets/css/nav.css">
-<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-<script src="assets/JavaScript/nav.js"></script>
+<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="Assets/css/nav.css">
+<link rel="stylesheet" href="Assets/font-awesome/css/font-awesome.css">
+<script src="Assets/js/nav.js"></script>
 
 <title>Emily Lavelle</title>
 </head>
@@ -17,16 +19,19 @@
 		<div class="row col-12 col-t-12">
 			<div class="topnav" id="myTopnav">
 			 	<div class="nav-media">
-			 		<i class="fa fa-github-alt" aria-hidden="true"></i>
-			 		<i class="fa fa-linkedin" aria-hidden="true"></i>
-			 		<i class="fa fa-envelope-o" aria-hidden="true" href="mailto:elavelle@kent.edu"></i>
+			 		<a href="https://github.com/elavelle13"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+					 <a href="https://www.linkedin.com/in/emilylavelle/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					 <a href="https://drive.google.com/drive/folders/0BzGF2ZyaGeMALXc1NmNZZW80M2s?usp=sharing"><i class="fa fa-google" aria-hidden="true"></i></a>
+					 <a href="mailto:elavelle@kent.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
 			 	</div>
+			 	<div class="slider-content">
 				  <a href="#about">About</a>
 				  <a href="#education">Education</a>
 				  <a href="#projects">Projects</a>
 				  <a href="#contact">Contact</a>
 				  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 				</div>
+			</div>
 			<div id="about" class="header-text col-12 col-t-12">
 				<div class="thin-header">
 					<h1>emilylavelle<h1>
@@ -39,31 +44,33 @@
 			</div>
 		</div>
 	</header>
+	<div id="about" class="col-12 intro">
+		<p class="quote">"A user interface is like a joke. If you have to explain it, it’s not that good."</p>
+		<p>I have always been passionate about design since I was in my early teens. From middle school to graduate school, I have geared my focus towards interactive design. From lectures to studios, I’ve deep-dived into the world of art. I have a collection of skills in RWD, UX/UI design, Web Programming, and Graphic Design (to name a few). I have worked in large corporations, such as Kent State, to startups like Uncubed. I have been a part of a design team and I have acted solo. I am constantly learning, implementing, and refining my skills. </p>
+		<p class="intro-bottom"></p>
+		<div class="mobile-hr"></div>
+	</div>
 	<div class="site-padding">
-		<div id="about" class="col-12 intro">
-			<p class="quote">A user interface is like a joke. If you have to explain it, it’s not that good.</p>
-			<p>I have always been passionate about design since I was in my early teens. From middle school to graduate school, I have geared my focus towards good design. From lecturers to studios, I’ve deep-dived into the world of art. I have a collection of skills in RWD, UX/UI design, web programming, and graphic design (to name a few). I have worked in large corporations, such as Kent State, to startups like Uncubed. I have been a part of a design team and I have acted solo. </p>
-			<p>If you made it past my first initial six sentences, good. I invite you to stay and view my work, and if you like what you see, hire me. I’m poor. </p>
-		</div>
 		<div id="education" class="education">
 			<h2><span class="bold-title">edu</span> <span class="light-title">kent state</span></h2>
-				<div class="col-6 col-t-6 degree">
-					<h4>Bachelor of Science</h4>
-					<p>Digital Sciences</p>
-					<p>2013-2016</p>
-				</div>
-				<div class="col-6 col-t-6 degree">
-					<h4>Master of Science</h4>
-					<p>User Experience Design</p>
-					<p>2016-2018</p>
-				</div>
+			<div class="col-6 col-t-6 degree">
+				<h4>Bachelor of Science</h4>
+				<p>Digital Sciences</p>
+				<p>2013-2016</p>
+			</div>
+			<div class="col-6 col-t-6 degree">
+				<h4>Master of Science</h4>
+				<p>User Experience Design</p>
+				<p>2016-2018</p>
+			</div>
 		</div>
 	</div>
 
 	<div class="col-12 col-t-12 body-social">
-		<i class="fa fa-github-alt col-3 col-t-3" aria-hidden="true"></i>
-		 <i class="fa fa-linkedin col-3 col-t-3" aria-hidden="true"></i>
-		 <i class="fa fa-envelope-o col-3 col-t-3" aria-hidden="true" href="mailto:elavelle@kent.edu"></i>
+		<a href="https://github.com/elavelle13"><i class="fa fa-github-alt col-3 col-t-3" aria-hidden="true"></i></a>
+		 <a href="https://www.linkedin.com/in/emilylavelle/"><i class="fa fa-linkedin col-3 col-t-3" aria-hidden="true"></i></a>
+		 <a href="https://drive.google.com/drive/folders/0BzGF2ZyaGeMALXc1NmNZZW80M2s?usp=sharing"><i class="fa fa-google col-3 col-t-3" aria-hidden="true"></i></a>
+		 <a href="mailto:elavelle@kent.edu"><i class="fa fa-envelope-o col-3 col-t-3" aria-hidden="true"></i></a>
 	</div>
 
 	<div class="col-12 col-t-12 feature-project">
@@ -71,68 +78,100 @@
 		</div>
 		<div class="feature-text">
 			<h2><span class="bold-title">treno</span> <span class="light-title">web design</span></h2>
-			<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui ocia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut ociis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+			<p>IdeaBase was approached by Treno, a high-scale Italian restaurant located in Kent, OH, to create their website. The team behind this project consisted of Graphic Designers, Web Developers, and User Experience Designers. My role within the project switched from task to task. I acted as the User Experience Designer during the initial phase of the project. I conducted a competitive analysis of restaurants around the Cleveland/Akron area. In my report I included general observations of what their competitors were doing, and provided recommendations based on the organization's goals and their audience's needs. As the UX Designer, I assisted with the creation of the organization's sitemap and low fidelity mockups. When it was time to create the high fidelity mockups, I worked closely with the Graphic Designers to ensure the low fidelity mockups made sense and transitioned into the organization's established brand</p>
+			<p>My role as the UX Designer within the project switched once we began the development phase of the project. I helped assist the Web Developers with building out the styles, functionalities, and structure of the website. The Developers and I worked through a respiratory on GitHub so that we could collaborate simultaneously.</p>
+			<p>As the development phase starts to finalize, I will switch back to my initial role as the UX Designer to conduct the usability tests. I will work with other team members when developing the usability test script to ensure all areas are covered. Once the script is finalized, we will conduct the usability tests in our UX Lab. During our usability test sessions, we will gather eye-tracking information, notes, and videos to observe and analyze for our report back to the client.</p>
 
-			<a class="feature-link" href="">View Website</a>
+			<p>If you would like to see the entire process of this project, please feel free to contact me. I would be more than glad to share my wireframes, code samples, and reports.</p>
+
+			<!-- <a class="feature-link" href="http://www.trenokent.com" target="_blank">View Website *</a> -->
+
 		</div>
 	</div>
 
 	<div id="projects" class="col-12 col-t projects mobile-projects">
-		<a href="Pages/project_treno.html" target="_blank">
-			<div class="img-wrap"><img class="img-select" src="assets/Images/project.jpeg" alt=""/>
+		<a href="Pages/project_treno.html">
+			<div class="img-wrap"><img class="img-select" src="Assets/images/treno.jpg" alt="Website View"/>
 				<p class="project-name">Treno<br>
 				<span class="project-class">Web Design</span></p>
 			</div>
 		</a>
-		<div class="img-wrap"><img class="img-select" src="assets/Images/project.jpeg" alt=""/>
-			<p class="project-name">Kent State University<br>
-			<span class="project-class">Web Design</span></p>
-		</div>
-		<div class="img-wrap"><img class="img-select" src="assets/Images/project.jpeg" alt=""/>
-			<p class="project-name">ReminderX<br>
-			<span class="project-class">User Experience Design</span></p>
-		</div>
-		<div class="img-wrap"><img class="img-select" src="assets/Images/project.jpeg" alt=""/>
-			<p class="project-name">West Virgina Golf<br>
-			<span class="project-class">Graphic Design</span></p>
-		</div>
-		<div class="img-wrap"><img class="img-select" src="assets/Images/project.jpeg" alt=""/>
-			<p class="project-name">Layover<br>
-			<span class="project-class">Mobile Application</span></p>
-		</div>
-		<div class="img-wrap"><img class="img-select" src="assets/Images/project.jpeg" alt=""/>
-			<p class="project-name">Uncubed<br>
-			<span class="project-class">Web Design & Email Templates</span></p>
-		</div>
+		<a href="project_lunchMoney.html">
+				<div class="img-wrap"><img class="img-select" src="Assets/images/lunchMoney.jpg" alt="Mobile App View"/>
+					<p class="project-name">Lunch Money Buddy<br>
+					<span class="project-class">Mobile Application</span></p>
+				</div>
+			</a>
+		<a href="Pages/project_DSA.html">
+			<div class="img-wrap"><img class="img-select" src="Assets/images/DSA.jpg" alt="DSA Homepage"/>
+				<p class="project-name">Division of Student Affairs<br>
+				<span class="project-class">Web Design</span></p>
+			</div>
+		</a>
+		<a href="Assets/documents/EmilyLavelle_PortfolioPiece_GE.pdf" target="_blank">
+				<div class="img-wrap"><img class="img-select" src="Assets/images/currentGE.jpg" alt="Wireframe"/>
+					<p class="project-name">Current Powered by GE<br>
+					<span class="project-class">User Experience Design</span></p>
+				</div>
+			</a>
+		<a href="Pages/project_uncubed.html">
+			<div class="img-wrap"><img class="img-select" src="Assets/images/uncubed.jpg" alt="Webpage View"/>
+				<p class="project-name">Uncubed<br>
+				<span class="project-class">Web Design & Email Templates</span></p>
+			</div>
+		</a>
+		<a href="project_layover.html">
+			<div class="img-wrap"><img class="img-select" src="Assets/images/layover_app.jpg" alt="Mobile App View"/>
+				<p class="project-name">Layover<br>
+				<span class="project-class">Mobile Application</span></p>
+			</div>
+		</a>
 	</div>
 
 	<div id="projects" class="col-12 col-t projects desktop-projects">
 		<div class="col-4 col-t-4  left">
-			<div class="img-wrap"><img class="img-select" src="assets/Images/project.jpeg" alt=""/>
-				<p class="project-name">Kent State University<br>
-				<span class="project-class">Web Design</span></p>
-			</div>
-			<div class="img-wrap"><img class="img-select" src="assets/Images/project.jpeg" alt=""/>
-				<p class="project-name">ReminderX<br>
-				<span class="project-class">User Experience Design</span></p>
-			</div>
-			<div class="img-wrap"><img class="img-select" src="assets/Images/project.jpeg" alt=""/>
-				<p class="project-name">West Virgina Golf<br>
-				<span class="project-class">Graphic Design</span></p>
-			</div>
+			<a href="Pages/project_layover.html">
+				<div class="img-wrap"><img class="img-select" src="Assets/images/layover_app.jpg" alt="Mobile App View"/>
+					<p class="project-name">Layover<br>
+					<span class="project-class">Mobile Application</span></p>
+				</div>
+			</a>
+			<a href="Pages/project_DSA.html">
+				<div class="img-wrap"><img class="img-select" src="Assets/images/DSA.jpg" alt="DSA Homepage"/>
+					<p class="project-name">Division of Student Affairs<br>
+					<span class="project-class">Web Design</span></p>
+				</div>
+			</a>
+			<a href="Pages/project_uncubed.html">
+				<div class="img-wrap"><img class="img-select" src="Assets/images/uncubed.jpg" alt="Uncubed Webpage"/>
+					<p class="project-name">Uncubed<br>
+					<span class="project-class">Web Design & Email Templates</span></p>
+				</div>
+			</a>
 		</div>
 		<div class="col-6 col-t-6 right">
-			<div class="img-wrap"><img class="img-select" src="assets/Images/project.jpeg" alt=""/>
-				<p class="project-name">Layover<br>
-				<span class="project-class">Mobile Application</span></p>
-			</div>
-			<div class="img-wrap"><img class="img-select" src="assets/Images/project.jpeg" alt=""/>
-				<p class="project-name">Uncubed<br>
-				<span class="project-class">Web Design & Email Templates</span></p>
-
-			</div>
+			<a href="Assets/documents/EmilyLavelle_PortfolioPiece_GE.pdf" target="_blank">
+				<div class="img-wrap"><img class="img-select" src="Assets/images/currentGE.jpg" alt="Mockup"/>
+					<p class="project-name">Current Powered by GE<br>
+					<span class="project-class">User Experience Design</span></p>
+				</div>
+			</a>
+			<!-- <a href="pages/project_KSoW.html">
+				<div class="img-wrap"><img class="img-select" src="assets/Images/KSoW.jpg" alt=""/>
+					<p class="project-name">Kent State of Wellness<br>
+					<span class="project-class">web Design</span></p>
+				</div>
+			</a> -->
+			<a href="Pages/project_lunchMoney.html">
+				<div class="img-wrap"><img class="img-select" src="Assets/images/lunchMoney.jpg" alt="Mobile App View"/>
+					<p class="project-name">Lunch Money Buddy<br>
+					<span class="project-class">Mobile Application</span></p>
+				</div>
+			</a>
 		</div>
 	</div>
+
+
 	<footer class="col-12 col-t-12">
 		<div class="footer-text">
 			<div class="col-6 col-t-6 footer-left">
@@ -141,15 +180,16 @@
 					<ul>
 						<li>Phone: 724-678-6872</li>
 						<li>Current Area: Cleveland/Akron, OH</li>
-						<li>Perminant area: Pittsburgh, PA</li>
+						<li>Perminant Area: Pittsburgh, PA</li>
 					</ul>
 				</div>
 			</div>
-			<div class="col-4 col-t-4 footer-right clear">
+			<div class="col-3 col-t-3 footer-right clear">
 				<div class="footer-social">
-			 		<i class="fa fa-github-alt" aria-hidden="true"></i>
-			 		<i class="fa fa-linkedin" aria-hidden="true"></i>
-			 		<i class="fa fa-envelope-o" aria-hidden="true" href="mailto:elavelle@kent.edu"></i>
+			 		<a href="https://github.com/elavelle13"><i class="fa fa-github-alt col-3 col-t-3" aria-hidden="true"></i></a>
+					 <a href="https://www.linkedin.com/in/emilylavelle/"><i class="fa fa-linkedin col-3 col-t-3" aria-hidden="true"></i></a>
+					 <a href="https://drive.google.com/drive/folders/0BzGF2ZyaGeMALXc1NmNZZW80M2s?usp=sharing"><i class="fa fa-google col-3 col-t-3" aria-hidden="true"></i></a>
+					 <a href="mailto:elavelle@kent.edu"><i class="fa fa-envelope-o col-3 col-t-3" aria-hidden="true"></i></a>
 	 			</div>
 	 		</div>
 		</div>
