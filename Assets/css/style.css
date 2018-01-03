@@ -123,6 +123,7 @@ footer {
 	opacity: 0;
 	transition: .5s ease;
 	background-color: #8EA50F;
+	display: none;
 }
 .project:hover .overlay {
 	opacity: 1;
@@ -352,6 +353,11 @@ header.about-page {
 		padding: 10px 0px;
 	}
 	.interests-container {
+		display: block;
+	}
+}
+@media screen and (min-width: 1025px) {
+	.overlay {
 		display: block;
 	}
 }
