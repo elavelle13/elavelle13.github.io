@@ -7,196 +7,128 @@
 <meta name="description" content="Online Portfolio">
 <meta name="author" content="Emily Lavelle">
 
-<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
-<link rel="stylesheet" type="text/css" href="Assets/css/nav.css">
-<link rel="stylesheet" href="Assets/font-awesome/css/font-awesome.css">
-<script src="Assets/js/nav.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+<script src="assets/js/video.js"></script>
+<srcipt src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 <title>Emily Lavelle</title>
 </head>
 <body> 
-	<header class="col-12 col-t-12">
-		<div class="row col-12 col-t-12">
-			<div class="topnav" id="myTopnav">
-			 	<div class="nav-media">
-			 		<a href="https://github.com/elavelle13"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-					 <a href="https://www.linkedin.com/in/emilylavelle/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-					 <a href="https://drive.google.com/drive/folders/0BzGF2ZyaGeMALXc1NmNZZW80M2s?usp=sharing"><i class="fa fa-google" aria-hidden="true"></i></a>
-					 <a href="mailto:elavelle@kent.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-			 	</div>
-			 	<div class="slider-content">
-				  <a href="#about">About</a>
-				  <a href="#education">Education</a>
-				  <a href="#projects">Projects</a>
-				  <a href="#contact">Contact</a>
-				  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-				</div>
-			</div>
-			<div id="about" class="header-text col-12 col-t-12">
-				<div class="thin-header">
-					<h1>emilylavelle<h1>
-				</div>
-				<div class="thick-header">
-					<h1>designer</h1>
-				</div>
-			</div>
-			<div class="col-12 col-t-12 desktop-row">
-			</div>
+<div class="col-12 m-navigation">
+	<nav>
+		<ul class="pages">
+			<li class="first-link"><a href="index.html" class="active">Projects</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+		<div class="m-nav-social">
+		  <ul>
+			<li><a href="https://github.com/elavelle13" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+		    <li><a href="https://www.linkedin.com/in/emilylavelle/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+		    <li><a href="https://drive.google.com/drive/folders/0BzGF2ZyaGeMALXc1NmNZZW80M2s?usp=sharing" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+		    <li><a href="mailto:elavelle@kent.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+		  </ul>
 		</div>
+	</nav>
+</div>
+<div class="col-4 left-navigation">
+	<nav>
+		<ul class="pages">
+			<li class="headshot"></li>
+			<li class="first-link"><a href="index.html" class="active">Projects</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+		<div class="nav-social">
+		  <ul>
+			<li><a href="https://github.com/elavelle13" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+		    <li><a href="https://www.linkedin.com/in/emilylavelle/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+		    <li><a href="https://drive.google.com/drive/folders/0BzGF2ZyaGeMALXc1NmNZZW80M2s?usp=sharing" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+		    <li><a href="mailto:elavelle@kent.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+		  </ul>
+		</div>
+	</nav>
+</div>
+<div class="col-8 col-12">
+	<header>
+		<blockquote>
+			A user interface is a like a joke. If you have to explain it, it's not that good.
+		</blockquote>
 	</header>
-	<div id="about" class="col-12 intro">
-		<p class="quote">"A user interface is like a joke. If you have to explain it, it’s not that good."</p>
-		<p>I have always been passionate about design since I was in my early teens. From middle school to graduate school, I have geared my focus towards interactive design. From lectures to studios, I’ve deep-dived into the world of art. I have a collection of skills in RWD, UX/UI design, Web Programming, and Graphic Design (to name a few). I have worked in large corporations, such as Kent State, to startups like Uncubed. I have been a part of a design team and I have acted solo. I am constantly learning, implementing, and refining my skills. </p>
-		<p class="intro-bottom"></p>
-		<div class="mobile-hr"></div>
-	</div>
-	<div class="site-padding">
-		<div id="education" class="education">
-			<h2><span class="bold-title">edu</span> <span class="light-title">kent state</span></h2>
-			<div class="col-6 col-t-6 degree">
-				<h4>Bachelor of Science</h4>
-				<p>Digital Sciences</p>
-				<p>2013-2016</p>
+	<div class="projects-container">
+		<div class="col-12 col-6 project">
+			<img src="assets/images/homepage/DSA.jpg" alt="Division of Student Affairs"/>
+			<div class="overlay">
+				<div class="text">
+					<p class="name">Division of Student Affairs</p>
+					<p class="category">Web Design</p>
+					<a href="pages/dsa.html" class="project-btn">View Project</a>
+				</div>
 			</div>
-			<div class="col-6 col-t-6 degree">
-				<h4>Master of Science</h4>
-				<p>User Experience Design</p>
-				<p>2016-2018</p>
+		</div>
+		<div class="col-12 col-6 project">
+			<img src="assets/images/homepage/currentGE.jpg" />
+			<div class="overlay">
+				<div class="text">
+					<p class="name">Current Powered by GE</p>
+					<p class="category">User Experience Design</p>
+					<a href="assets/documents/EmilyLavelle_PortfolioPiece_GE.pdf" class="project-btn" target="_blank">View Project</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-6 project">
+			<img src="assets/images/homepage/layover_app.jpg" />
+			<div class="overlay">
+				<div class="text">
+					<p class="name">Layover</p>
+					<p class="category">Mobile Application</p>
+					<a href="pages/layover.html" class="project-btn">View Project</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-6 project">
+			<img src="assets/images/homepage/treno.jpg" />
+			<div class="overlay">
+				<div class="text">
+					<p class="name">Treno</p>
+					<p class="category">Web Design</p>
+					<a href="pages/treno.html" class="project-btn">View Project</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-6 project">
+			<img src="assets/images/homepage/uncubed.jpg" />
+			<div class="overlay">
+				<div class="text">
+					<p class="name">NYC Uncubed</p>
+					<p class="category">Web Design & Email Templates</p>
+					<a href="pages/uncubed.html" class="project-btn">View Project</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-6 project">
+			<img src="assets/images/homepage/lunchMoney.jpg" />
+			<div class="overlay">
+				<div class="text">
+					<p class="name">Lunch Money Buddy</p>
+					<p class="category">Mobile Application</p>
+					<a href="pages/lunchbuddy.html" class="project-btn">View Project</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-6 project">
+			<img src="assets/images/homepage/chopshop.jpg" />
+			<div class="overlay">
+				<div class="text">
+					<p class="name">Ohio Chop Shop</p>
+					<p class="category">Web Design</p>
+					<a href="pages/chopshop.html" class="project-btn">View Project</a>
+				</div>
 			</div>
 		</div>
 	</div>
-
-	<div class="col-12 col-t-12 body-social">
-		<a href="https://github.com/elavelle13"><i class="fa fa-github-alt col-3 col-t-3" aria-hidden="true"></i></a>
-		 <a href="https://www.linkedin.com/in/emilylavelle/"><i class="fa fa-linkedin col-3 col-t-3" aria-hidden="true"></i></a>
-		 <a href="https://drive.google.com/drive/folders/0BzGF2ZyaGeMALXc1NmNZZW80M2s?usp=sharing"><i class="fa fa-google col-3 col-t-3" aria-hidden="true"></i></a>
-		 <a href="mailto:elavelle@kent.edu"><i class="fa fa-envelope-o col-3 col-t-3" aria-hidden="true"></i></a>
-	</div>
-
-	<div class="col-12 col-t-12 feature-project">
-		<div class="feature-img">
-		</div>
-		<div class="feature-text">
-			<h2><span class="bold-title">treno</span> <span class="light-title">web design</span></h2>
-			<p>IdeaBase was approached by Treno, a high-scale Italian restaurant located in Kent, OH, to create their website. The team behind this project consisted of Graphic Designers, Web Developers, and User Experience Designers. My role within the project switched from task to task. I acted as the User Experience Designer during the initial phase of the project. I conducted a competitive analysis of restaurants around the Cleveland/Akron area. In my report I included general observations of what their competitors were doing, and provided recommendations based on the organization's goals and their audience's needs. As the UX Designer, I assisted with the creation of the organization's sitemap and low fidelity mockups. When it was time to create the high fidelity mockups, I worked closely with the Graphic Designers to ensure the low fidelity mockups made sense and transitioned into the organization's established brand</p>
-			<p>My role as the UX Designer within the project switched once we began the development phase of the project. I helped assist the Web Developers with building out the styles, functionalities, and structure of the website. The Developers and I worked through a respiratory on GitHub so that we could collaborate simultaneously.</p>
-			<p>As the development phase starts to finalize, I will switch back to my initial role as the UX Designer to conduct the usability tests. I will work with other team members when developing the usability test script to ensure all areas are covered. Once the script is finalized, we will conduct the usability tests in our UX Lab. During our usability test sessions, we will gather eye-tracking information, notes, and videos to observe and analyze for our report back to the client.</p>
-
-			<p>If you would like to see the entire process of this project, please feel free to contact me. I would be more than glad to share my wireframes, code samples, and reports.</p>
-
-			<a class="feature-link" href="http://www.trenokent.com" target="_blank">View Website</a>
-
-		</div>
-	</div>
-
-	<div id="projects" class="col-12 col-t projects mobile-projects">
-		<a href="Pages/project_treno.html">
-			<div class="img-wrap"><img class="img-select" src="Assets/images/treno.jpg" alt="Website View"/>
-				<p class="project-name">Treno<br>
-				<span class="project-class">Web Design</span></p>
-			</div>
-		</a>
-		<a href="project_lunchMoney.html">
-				<div class="img-wrap"><img class="img-select" src="Assets/images/lunchMoney.jpg" alt="Mobile App View"/>
-					<p class="project-name">Lunch Money Buddy<br>
-					<span class="project-class">Mobile Application</span></p>
-				</div>
-			</a>
-		<a href="Pages/project_DSA.html">
-			<div class="img-wrap"><img class="img-select" src="Assets/images/DSA.jpg" alt="DSA Homepage"/>
-				<p class="project-name">Division of Student Affairs<br>
-				<span class="project-class">Web Design</span></p>
-			</div>
-		</a>
-		<a href="Assets/documents/EmilyLavelle_PortfolioPiece_GE.pdf" target="_blank">
-				<div class="img-wrap"><img class="img-select" src="Assets/images/currentGE.jpg" alt="Wireframe"/>
-					<p class="project-name">Current Powered by GE<br>
-					<span class="project-class">User Experience Design</span></p>
-				</div>
-			</a>
-		<a href="Pages/project_uncubed.html">
-			<div class="img-wrap"><img class="img-select" src="Assets/images/uncubed.jpg" alt="Webpage View"/>
-				<p class="project-name">Uncubed<br>
-				<span class="project-class">Web Design & Email Templates</span></p>
-			</div>
-		</a>
-		<a href="project_layover.html">
-			<div class="img-wrap"><img class="img-select" src="Assets/images/layover_app.jpg" alt="Mobile App View"/>
-				<p class="project-name">Layover<br>
-				<span class="project-class">Mobile Application</span></p>
-			</div>
-		</a>
-	</div>
-
-	<div id="projects" class="col-12 col-t projects desktop-projects">
-		<div class="col-4 col-t-4  left">
-			<a href="Pages/project_layover.html">
-				<div class="img-wrap"><img class="img-select" src="Assets/images/layover_app.jpg" alt="Mobile App View"/>
-					<p class="project-name">Layover<br>
-					<span class="project-class">Mobile Application</span></p>
-				</div>
-			</a>
-			<a href="Pages/project_DSA.html">
-				<div class="img-wrap"><img class="img-select" src="Assets/images/DSA.jpg" alt="DSA Homepage"/>
-					<p class="project-name">Division of Student Affairs<br>
-					<span class="project-class">Web Design</span></p>
-				</div>
-			</a>
-			<a href="Pages/project_uncubed.html">
-				<div class="img-wrap"><img class="img-select" src="Assets/images/uncubed.jpg" alt="Uncubed Webpage"/>
-					<p class="project-name">Uncubed<br>
-					<span class="project-class">Web Design & Email Templates</span></p>
-				</div>
-			</a>
-		</div>
-		<div class="col-6 col-t-6 right">
-			<a href="Assets/documents/EmilyLavelle_PortfolioPiece_GE.pdf" target="_blank">
-				<div class="img-wrap"><img class="img-select" src="Assets/images/currentGE.jpg" alt="Mockup"/>
-					<p class="project-name">Current Powered by GE<br>
-					<span class="project-class">User Experience Design</span></p>
-				</div>
-			</a>
-			<!-- <a href="pages/project_KSoW.html">
-				<div class="img-wrap"><img class="img-select" src="assets/Images/KSoW.jpg" alt=""/>
-					<p class="project-name">Kent State of Wellness<br>
-					<span class="project-class">web Design</span></p>
-				</div>
-			</a> -->
-			<a href="Pages/project_lunchMoney.html">
-				<div class="img-wrap"><img class="img-select" src="Assets/images/lunchMoney.jpg" alt="Mobile App View"/>
-					<p class="project-name">Lunch Money Buddy<br>
-					<span class="project-class">Mobile Application</span></p>
-				</div>
-			</a>
-		</div>
-	</div>
-
-
-	<footer class="col-12 col-t-12">
-		<div class="footer-text">
-			<div class="col-6 col-t-6 footer-left">
-				<h4 class="footer-title">Emily Lavelle</h4>
-				<div class="footer-info">
-					<ul>
-						<li>Phone: 724-678-6872</li>
-						<li>Current Area: Cleveland/Akron, OH</li>
-						<li>Perminant Area: Pittsburgh, PA</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-3 col-t-3 footer-right clear">
-				<div class="footer-social">
-			 		<a href="https://github.com/elavelle13"><i class="fa fa-github-alt col-3 col-t-3" aria-hidden="true"></i></a>
-					 <a href="https://www.linkedin.com/in/emilylavelle/"><i class="fa fa-linkedin col-3 col-t-3" aria-hidden="true"></i></a>
-					 <a href="https://drive.google.com/drive/folders/0BzGF2ZyaGeMALXc1NmNZZW80M2s?usp=sharing"><i class="fa fa-google col-3 col-t-3" aria-hidden="true"></i></a>
-					 <a href="mailto:elavelle@kent.edu"><i class="fa fa-envelope-o col-3 col-t-3" aria-hidden="true"></i></a>
-	 			</div>
-	 		</div>
-		</div>
-		<div class="copyright">
-			<p>Emily Lavelle. All Rights Reserved. 2017.</p>
-		</div>
+	<footer class="col-12">
+		<p>&copy; 2017-2018 Emily Lavelle All Rights Reserved
 	</footer>
-
+</div>
 </body>
 </html>
